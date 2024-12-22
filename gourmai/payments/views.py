@@ -16,9 +16,9 @@ from gourmai.payments.utils import generate_payment_token
 import stripe
 
 # Init #
-stripe.api_key = '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'
+stripe.api_key = ''
 
-endpoint_secret = "pk_live_51OtCyxP27ZWoiqFWhM2JrRFXiGRvsaJ1XBogzj04sgpyoNCkPVh2atemJDYl3BRCDfzgqElWMghla1rq25RilbIh00gvMRiCnD"
+endpoint_secret = ""
 
 @blueprint.route('/payments', methods=['GET'])
 def payments():

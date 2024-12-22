@@ -9,8 +9,9 @@ __pycache__/
 # ENV # 
 .env 
 
-
-
+env-dev-sample.txt
+node_modules
+venv_name
 # Distribution / packaging
 .Python
 build/
